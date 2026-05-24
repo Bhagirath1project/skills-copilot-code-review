@@ -12,6 +12,8 @@ import os
 from pathlib import Path
 from .backend import routers, database
 
+
+
 # Initialize web host
 app = FastAPI(
     title="Mergington High School API",
